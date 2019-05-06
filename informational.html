@@ -1,0 +1,7 @@
+---
+layout: page
+title: Informational
+---
+
+{% assign sips=site.pages|where:"type","Informational" %}
+{% include siptable.html sips=sips %}

@@ -1,0 +1,7 @@
+---
+layout: page
+title: SRC
+---
+
+{% assign sips=site.pages|where:"type","Standards Track"|where:"category","SRC" %}
+{% include siptable.html sips=sips %}
